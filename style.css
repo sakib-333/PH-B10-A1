@@ -288,3 +288,60 @@ main .banner button {
   padding: 10px;
   box-sizing: border-box;
 }
+
+/* Support */
+.support {
+  margin-top: 49px;
+  margin-bottom: 100px;
+  width: 1140px;
+  height: 313px;
+  border-radius: 16px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(59, 51, 51, 0.6)),
+    url("./assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.support h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.support p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding-left: 15px;
+  border: none;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+input[type="submit"] {
+  width: 120px;
+  height: 57px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
