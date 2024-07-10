@@ -292,6 +292,7 @@ main .banner a {
   height: 100%;
   padding: 10px;
   box-sizing: border-box;
+  object-fit: fill;
 }
 
 /* Support */
@@ -351,7 +352,7 @@ input[type="submit"] {
 }
 
 footer {
-  margin: 80px auto;
+  margin: 80px auto 0;
   width: 1440px;
   height: 100px;
   border-radius: 16px;
