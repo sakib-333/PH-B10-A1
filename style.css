@@ -102,12 +102,14 @@ main .banner p {
   width: 852px;
 }
 
-main .banner button {
-  width: 208px;
-  height: 66px;
+main .banner a {
+  /* width: 208px;
+  height: 66px; */
+  padding: 30px 60px;
   border-radius: 8px;
   background: rgb(13, 19, 33);
   color: #fff;
+  text-decoration: none;
 }
 
 /* Development */
@@ -292,7 +294,6 @@ main .banner button {
 /* Support */
 .support {
   margin-top: 49px;
-  margin-bottom: 100px;
   width: 1140px;
   height: 313px;
   border-radius: 16px;
@@ -344,4 +345,23 @@ input[type="submit"] {
   border-radius: 8px;
   background: rgb(255, 255, 255);
   border: none;
+}
+
+footer {
+  margin: 80px auto;
+  width: 1440px;
+  height: 100px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+footer p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.social-icons {
+  width: 190px;
 }
