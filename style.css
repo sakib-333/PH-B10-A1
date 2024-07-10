@@ -79,12 +79,15 @@ nav button {
 }
 
 /* Main */
+main {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .banner {
   width: 1440px;
   height: 652px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url("./assets/hero-bg.png");
+  background-image: url("./assets/hero_bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
